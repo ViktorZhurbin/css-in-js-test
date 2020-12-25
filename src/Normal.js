@@ -7,7 +7,7 @@ export const Normal = () => {
 
   return (
     <div>
-      <h3>Normal</h3>
+      <h3>Normal - {randomValue}</h3>
       <button onClick={() => setRandomValue(Math.random())}>
         Force Rerender
       </button>

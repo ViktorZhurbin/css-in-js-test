@@ -7,7 +7,7 @@ export const Styled = () => {
   const [randomValue, setRandomValue] = React.useState(0);
   return (
     <div>
-      <h3>Styled</h3>
+      <h3>Styled - {randomValue}</h3>
       <button onClick={() => setRandomValue(Math.random())}>
         Force Rerender
       </button>
